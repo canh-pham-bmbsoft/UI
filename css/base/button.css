@@ -8,7 +8,9 @@
   background-color: #019160;
   display: inline-block;
   min-width: 75px;
-  line-height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px;
 }
 .button:hover {
   background-color: #2fbe8e;

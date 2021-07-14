@@ -1,9 +1,18 @@
 @import url("./base/button.css");
+@import url("./base/select.css");
+@import url("./base/input.css");
+
 body {
   font-family: MISAGoogleSans;
   font-size: 13px;
   margin: 0;
   padding: 0;
+}
+.container {
+  display: flex;
+}
+.right-container {
+  width: 100%;
 }
 
 @font-face {
